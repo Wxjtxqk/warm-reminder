@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Remove Keywords Modal",
+  "version": "1.1",
+  "description": "Automatycznie usuwa divy z klasą keywords-modal na stronie cnfans.com",
+  "icons": {
+    "1024": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "cookies",
+    "*://cnfans.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://cnfans.com/*"],
+      "js": ["removeDivs.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "1024": "icon.png"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 200px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 16px;
+            margin: 0;
+        }
+        p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        button {
+            margin-top: 10px;
+        }
+        .checkbox-container {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1>Warm Reminder Deleter</h1>
+<p>Wtyczka automatycznie usuwa warm reminder na stronie cnfans.com.</p>
+<p>Wtyczka zrobiona przez <b>kaku</b>. Jest open source, nie posiada żadnego spyware lub innego wirusa.</p>
+<p id="developer"></p>
+<div class="checkbox-container">
+    <label>
+        <input type="checkbox" id="autoDelete">
+        AutoDelete
+    </label>
+</div>
+<div class="checkbox-container">
+    <label>
+        <input type="checkbox" id="autoReminder">
+        AutoReminder
+    </label>
+</div>
+<button id="button">Usuń modal manualnie</button>
+<button id="save">Zapisz</button>
+<script src="popup.js"></script>
+</body>
+</html>

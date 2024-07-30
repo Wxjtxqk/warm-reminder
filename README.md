@@ -1,2 +1,3 @@
-# warm-reminder
-CnFans Warm Reminder AutoDeleter
+# CnFans Warm Reminder AutoDeleter
+Usuwa automatycznie 
+
