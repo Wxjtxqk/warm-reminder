@@ -3,7 +3,7 @@ function removeKeywordModal() {
 
     if (modal) {
             modal.remove();
-            console.log("removed keywords modal | https://discord.gg/tqHPXPGW | discord: wxjtxqk || https://kaku.lol/warm-reminder");
+            console.log("removed keywords modal | discord: wxjtxqk || https://kaku.lol/warm-reminder");
     }
 }
 
